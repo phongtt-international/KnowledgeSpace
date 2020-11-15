@@ -1,0 +1,9 @@
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.deps.json
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.pdb
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.csprojAssemblyReference.cache
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.csproj.CoreCompileInputs.cache
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.AssemblyInfoInputs.cache
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.AssemblyInfo.cs
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.ViewModels\obj\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.pdb

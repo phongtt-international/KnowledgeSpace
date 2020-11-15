@@ -8,7 +8,7 @@ using static KnowledgeSpace.BackendServer.Extensions.ModelBuilderExtensions;
 
 namespace KnowledgeSpace.BackendServer.Data.ConfigurationFluentAPI
 {
-    public class PermissionConfig : DbEntityConfiguration<Permission>
+    public class PermissionConfigs : DbEntityConfiguration<Permission>
     {
         public override void Configure(EntityTypeBuilder<Permission> entity)
         {
