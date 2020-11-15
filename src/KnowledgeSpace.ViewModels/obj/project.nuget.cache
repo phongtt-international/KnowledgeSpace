@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DZTPZwH11qzUkdaHACeoFX/1pZOotbiKe78SoBLUx3MbHdEA0RdHAVZrzEs/JyE7hBdKxDDezRTRZ5+WINk6kg==",
+  "dgSpecHash": "fGwaaat9TRjAmragrqbDsWAgtLA99W8bFqn9Pmbf1cmhWNpgPq0ObYjCfUU2P8mPwfI/udpCPczHBVEsx7YLOg==",
   "success": true,
   "projectFilePath": "F:\\TEDU\\KnowledgeSpace\\src\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

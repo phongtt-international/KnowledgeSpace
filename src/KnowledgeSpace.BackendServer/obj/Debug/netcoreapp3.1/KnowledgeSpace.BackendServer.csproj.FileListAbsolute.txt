@@ -146,6 +146,9 @@ F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\FluentValidation.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.csproj.CoreCompileInputs.cache
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.MvcApplicationPartsAssemblyInfo.cs
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.MvcApplicationPartsAssemblyInfo.cache
