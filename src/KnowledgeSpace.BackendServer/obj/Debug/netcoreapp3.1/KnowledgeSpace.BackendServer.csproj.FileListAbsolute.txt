@@ -140,5 +140,12 @@ F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.pdb
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.csproj.CoreCompileInputs.cache
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.MvcApplicationPartsAssemblyInfo.cs
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.BackendServer\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.MvcApplicationPartsAssemblyInfo.cache
