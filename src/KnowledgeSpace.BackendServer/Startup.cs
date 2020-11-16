@@ -68,12 +68,15 @@ namespace KnowledgeSpace.BackendServer
                 options.Password.RequireUppercase = true;
                 options.User.RequireUniqueEmail = true;
             });
-
+            //services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RoleCreateRequestValidatior>());
+            services.AddControllersWithViews().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RoleCreateRequestValidatior>());
+            
             services.AddAuthentication()
-                .AddLocalApi("Bearer", option => 
-                {
-                    option.ExpectedScope = "api.knowledgespace";
-                });
+               .AddLocalApi("Bearer", option =>
+               {
+                   option.ExpectedScope = "api.knowledgespace";
+               });
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("Bearer", policy =>
@@ -82,6 +85,7 @@ namespace KnowledgeSpace.BackendServer
                     policy.RequireAuthenticatedUser();
                 });
             });
+
             services.AddRazorPages(options =>
             {
                 options.Conventions.AddAreaFolderRouteModelConvention("Identity", "/Account/", model =>
@@ -102,7 +106,7 @@ namespace KnowledgeSpace.BackendServer
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Knowledge Space API", Version = "v1" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                { 
+                {
                     Type = SecuritySchemeType.OAuth2,
                     Flows = new OpenApiOAuthFlows
                     {
@@ -125,8 +129,8 @@ namespace KnowledgeSpace.BackendServer
                 });
             });
 
-            services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RoleCreateRequestValidatior>());
-            
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

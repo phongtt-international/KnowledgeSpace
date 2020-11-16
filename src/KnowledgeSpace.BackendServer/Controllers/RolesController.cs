@@ -12,10 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KnowledgeSpace.BackendServer.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    [Authorize("Bearer")]
-    public class RolesController : ControllerBase
+    public class RolesController : BaseController
     {
         public readonly RoleManager<IdentityRole> _roleManager;
         public RolesController(RoleManager<IdentityRole> roleManager)
