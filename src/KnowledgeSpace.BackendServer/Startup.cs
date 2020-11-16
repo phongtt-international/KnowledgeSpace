@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 using FluentValidation.AspNetCore;
 using KnowledgeSpace.BackendServer.Data;
 using KnowledgeSpace.BackendServer.Data.Entities;
+using KnowledgeSpace.BackendServer.IdentityServer;
+using KnowledgeSpace.BackendServer.Services;
 using KnowledgeSpace.ViewModels.Systems;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -38,6 +41,18 @@ namespace KnowledgeSpace.BackendServer
                     Configuration.GetConnectionString("DefaultConnection")));
             //2. Setup identity
             services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+            var builder = services.AddIdentityServer(options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+            })
+            .AddInMemoryApiResources(Config.Apis)
+            .AddInMemoryClients(Config.Clients)
+            .AddInMemoryIdentityResources(Config.Ids)
+            .AddAspNetIdentity<User>();
+
             services.Configure<IdentityOptions>(options =>
             {
                 // Default Lockout settings.
@@ -52,7 +67,23 @@ namespace KnowledgeSpace.BackendServer
                 options.Password.RequireUppercase = true;
                 options.User.RequireUniqueEmail = true;
             });
+
+            services.AddRazorPages(options =>
+            {
+                options.Conventions.AddAreaFolderRouteModelConvention("Identity", "/Account/", model =>
+                {
+                    foreach (var selector in model.Selectors)
+                    {
+                        var attributeRouteModel = selector.AttributeRouteModel;
+                        attributeRouteModel.Order = -1;
+                        attributeRouteModel.Template = attributeRouteModel.Template.Remove(0, "Identity".Length);
+                    }
+                });
+            });
+
             services.AddTransient<DbInitializer>();
+            services.AddTransient<IEmailSender, EmailSenderService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Knowledge Space API", Version = "v1" });
@@ -68,6 +99,11 @@ namespace KnowledgeSpace.BackendServer
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
+
+            app.UseIdentityServer();
+
+            app.UseAuthentication();
 
             app.UseHttpsRedirection();
 
@@ -77,7 +113,9 @@ namespace KnowledgeSpace.BackendServer
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                //endpoints.MapControllers();
+                endpoints.MapDefaultControllerRoute();
+                endpoints.MapRazorPages();
             });
             app.UseSwagger();
             app.UseSwaggerUI(c =>

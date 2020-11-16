@@ -46,9 +46,17 @@
               "target": "Package",
               "version": "[9.3.0, )"
             },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

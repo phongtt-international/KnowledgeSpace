@@ -9,7 +9,6 @@ F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\bin\Debug\netcoreapp3.1\Know
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\bin\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.pdb
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\bin\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.Views.dll
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\bin\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.Views.pdb
-F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.csprojAssemblyReference.cache
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.csproj.CoreCompileInputs.cache
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.MvcApplicationPartsAssemblyInfo.cache
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.RazorAssemblyInfo.cache
@@ -35,3 +34,4 @@ F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\Know
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.pdb
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.genruntimeconfig.cache
 F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.csproj.CopyComplete
+F:\TEDU\KnowledgeSpace\src\KnowledgeSpace.WebPortal\obj\Debug\netcoreapp3.1\KnowledgeSpace.WebPortal.csprojAssemblyReference.cache
