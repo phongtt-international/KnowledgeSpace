@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using KnowledgeSpace.ViewModels;
 using KnowledgeSpace.ViewModels.Systems;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,7 @@ namespace KnowledgeSpace.BackendServer.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize("Bearer")]
     public class RolesController : ControllerBase
     {
         public readonly RoleManager<IdentityRole> _roleManager;
